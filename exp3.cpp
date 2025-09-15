@@ -6,7 +6,7 @@ using namespace std;
 
 void reverseString(string str, int index) {
     if (index < 0)
-        return; // base case
+        return;
     cout << str[index];
     reverseString(str, index - 1); 
 }
@@ -14,7 +14,7 @@ void reverseString(string str, int index) {
 int main() {
     string input;
     cout << "Enter a string: ";
-    getline(cin, input); // allows spaces in input
+    getline(cin, input);
 
     cout << "Reversed string: ";
     reverseString(input, input.length() - 1);
