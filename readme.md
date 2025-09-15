@@ -50,3 +50,22 @@ This base case stops the recursion.
 - Else return n * factorial(n - 1).
 - Call the recursive function and print the result.
 - End
+
+Program 3
+
+Aim:
+C++ program that takes a string from the user and prints it in reverse using recursion.
+
+Theory:
+Recursion works by calling the same function with a smaller problem size.
+Here, we start from the last character of the string and keep printing characters while moving backward.
+
+Algorithm:
+- Start
+- Read the string from the user.
+- Define a recursive function reverseString(str, index):
+- If index < 0, return.
+- Print str[index].
+- Call reverseString(str, index - 1).
+- Call the function with index = str.length() - 1.
+- End
