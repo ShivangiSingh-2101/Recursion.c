@@ -69,3 +69,25 @@ Algorithm:
 - Call reverseString(str, index - 1).
 - Call the function with index = str.length() - 1.
 - End
+
+
+Program 4
+Aim:
+
+Write a C++ program to reverse a given integer number.
+Theory:
+
+Reversing a number means to arrange the digits of the number in reverse order. For example, if the number is 1234, the reversed number will be 4321.
+To reverse a number, we extract the last digit using the modulus operator % 10, add it to a new reversed number by shifting existing digits to the left (multiplying by 10), and then remove the last digit from the original number by dividing it by 10. This process is repeated until the original number becomes zero.
+
+Algorithm:
+
+- Start
+- Read the number n
+- Initialize reversed_number as 0
+- While n is not 0:
+- Extract last digit digit = n % 10
+- Update reversed_number = reversed_number * 10 + digit
+- Remove last digit from n by n = n / 10
+- Print reversed_number
+- End
