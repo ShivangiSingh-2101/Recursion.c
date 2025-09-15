@@ -9,12 +9,11 @@ int main() {
     cout << "Enter a number: ";
     cin >> n;
 
-    int original = n; // Store original number to show output properly
-
+    int original = n; 
     while (n != 0) {
-        int digit = n % 10;                   // Extract last digit
-        reversed_number = reversed_number * 10 + digit; // Append digit
-        n = n / 10;                          // Remove last digit
+        int digit = n % 10;                  
+        reversed_number = reversed_number * 10 + digit;
+        n = n / 10;                          
     }
 
     cout << "Reversed number of " << original << " is " << reversed_number << endl;
