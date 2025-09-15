@@ -75,6 +75,7 @@ Program 4
 Aim:
 
 Write a C++ program to reverse a given integer number.
+
 Theory:
 
 Reversing a number means to arrange the digits of the number in reverse order. For example, if the number is 1234, the reversed number will be 4321.
