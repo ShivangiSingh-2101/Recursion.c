@@ -15,11 +15,11 @@ Base case:
 Sum(0) = 0
 
  Algorithm:
-Start
-Accept input n from the user.
-If n is less than 0, display an error message and stop.
-Call a recursive function recursiveSum(n):
-If n == 0, return 0 (base case).
-Otherwise, return n + recursiveSum(n - 1).
-Print the result.
-End
+- Start
+- Accept input n from the user.
+- If n is less than 0, display an error message and stop.
+- Call a recursive function recursiveSum(n):
+- If n == 0, return 0 (base case).
+- Otherwise, return n + recursiveSum(n - 1).
+- Print the result.
+- End
