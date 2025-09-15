@@ -23,3 +23,30 @@ Sum(0) = 0
 - Otherwise, return n + recursiveSum(n - 1).
 - Print the result.
 - End
+
+Program 2
+
+Aim:
+To write a C++ program to find the factorial of a number using recursion.
+
+Theory:
+
+Recursion is a process where a function calls itself. The factorial of a number n (denoted as n!) is the product of all positive integers less than or equal to n.
+Mathematically:
+n! = n × (n - 1) × (n - 2) × ... × 1
+Using recursion:
+factorial(n) = n × factorial(n - 1)
+
+Base Case:
+factorial(0) = 1
+This base case stops the recursion.
+
+ Algorithm:
+- Start
+- Input a number n.
+- If n is negative, display an error.
+- Define a recursive function factorial(n):
+- If n == 0 or n == 1, return 1.
+- Else return n * factorial(n - 1).
+- Call the recursive function and print the result.
+- End
