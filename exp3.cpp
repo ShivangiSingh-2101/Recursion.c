@@ -3,12 +3,12 @@
 #include <iostream>
 using namespace std;
 
-// Recursive function to print string in reverse
+
 void reverseString(string str, int index) {
     if (index < 0)
         return; // base case
     cout << str[index];
-    reverseString(str, index - 1); // recursive call
+    reverseString(str, index - 1); 
 }
 
 int main() {
